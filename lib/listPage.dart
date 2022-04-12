@@ -9,15 +9,15 @@ class ListPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
-        title: Center(child: Text('listview builder')),
+        title: Center(child: Text('listview builder page')),
       ),
       body: ListView(
-        children: const[
+        children: const [
           Listbuild(),
-           Listbuild(),
-            Listbuild(),
-             Listbuild(),
-              Listbuild(),
+          Listbuild(),
+          Listbuild(),
+          Listbuild(),
+          Listbuild(),
         ],
       ),
     );
